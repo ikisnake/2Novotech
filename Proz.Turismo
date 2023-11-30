@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares Turísticos</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: purple;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h2 {
+            color: Purple;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin: 5px;
+            padding: 5px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 8px;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Lugares Turísticos na Europa</h1>
+    </header>
+
+    <main>
+        <h2>Paris, França</h2>
+        <div class="card">
+            <img src="https://www.segueviagem.com.br/wp-content/uploads/2016/08/Paris-Franca-shutterstock_1829492048-1000x675.jpg" alt="Paris">
+            <p>Paris, a capital da França, é uma das cidades mais visitadas do mundo. Conhecida como a "Cidade Luz", Paris, a cidade do amor, é conhecida por seus marcos icônicos como a Torre Eiffel, o Louvre e a Catedral de Notre-Dame. Fazer turismo em Paris é o sonho de muitos viajantes de todo o mundo. A capital da França é um dos destinos mais especiais do planeta e, definitivamente, merece a sua visita.</p>
+
+
+<img src= "https://cdn-imgix.headout.com/mircobrands-content/image/15fa043d98f93cfb629799a920ddb1eb-Why%20Visit%20the%20Eiffel%20Tower%20at%20Night%3F.jpeg?auto=format&w=814.9333333333333&h=458.4&q=90&fit=crop&ar=16%3A9" alt='torre'>
+<P>
+-A Torre Eiffel, um dos monumentos mais emblemáticos do mundo, é um dos pontos turísticos mais visitados de Paris. Construída para a Exposição Universal de 1889, a Torre Eiffel é um símbolo da França e da modernidade.
+</p> 
+
+<img src= "https://api-www.louvre.fr/sites/default/files/2021-01/cour-napoleon-et-pyramide_1.jpg" alt='louvre'>
+<P>
+-O Museu do Louvre, o maior museu de arte do mundo, abriga um acervo de mais de 350 mil obras de arte, incluindo a Mona Lisa, de Leonardo da Vinci. O museu é uma visita obrigatória para quem gosta de arte e história.
+</p> 
+
+<img src="https://www.tudosobreparis.com/f/francia/paris/guia/catedral-notre-dame.jpg" alt= 'catedral'>
+<P>
+-A Catedral de Notre Dame, uma das mais belas catedrais góticas do mundo, é um dos símbolos da cidade de Paris. Construída no século XII, a catedral foi parcialmente destruída por um incêndio em 2019, mas está sendo restaurada.
+</p> <P>
+Além desses pontos turísticos, Paris oferece uma variedade de outras atrações, como o Palácio de Versalhes, o Arco do Triunfo, o Moulin Rouge e o bairro de Montmartre.
+</p> <P>
+Paris é uma cidade vibrante e cosmopolita, com uma rica história e cultura. É um destino perfeito para quem quer aproveitar uma viagem cultural, romântica ou simplesmente relaxar.</p>
+        </div>
+
+        <h2>Roma, Itália</h2>
+        <div class="card">
+            <img src="https://benditacidadania.com.br/wp-content/uploads/2021/02/roma-capital-da-italia.jpg" alt="Roma">
+            <p>Roma, a capital da Itália, é uma cidade histórica e culturalmente rica, com uma população de cerca de 2,8 milhões de habitantes. A cidade é um destino turístico popular, atraindo milhões de visitantes de todo o mundo todos os anos.</p>
+<P>
+Roma é conhecida por suas ruínas antigas, que datam do Império Romano. Alguns dos pontos turísticos mais populares da cidade incluem:
+</p>
+<img src= "https://s2.glbimg.com/kR0I6n8QbwBdbT6cnNLCimjsOIk=/620x455/e.glbimg.com/og/ed/f/original/2017/10/09/thinkstockphotos-158762142.jpg" alt='Coliseu'>
+   <P> O Coliseu: O Coliseu é um anfiteatro oval construído no século I d.C. e é um dos monumentos mais emblemáticos do mundo.</p>
+   <img src= "https://cdn.getyourguide.com/img/location/535e42f7ac585.jpeg/99.jpg" alt='Forum'>
+    <P>O Fórum Romano: O Fórum Romano era o centro político, religioso e comercial da Roma Antiga.</p>
+    <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/20190406-DSC5193_Panteon.jpg/300px-20190406-DSC5193_Panteon.jpg" alt='panteao'>
+   <P> O Panteão: O Panteão é um templo romano dedicado a todos os deuses, e é um dos edifícios mais bem preservados da Roma Antiga.</p>
+
+<p>
+Roma é uma cidade vibrante e cosmopolita, com uma rica história e cultura. É um destino perfeito para quem quer aproveitar uma viagem cultural, romântica ou simplesmente relaxar.
+
+</p>
+        </div>
+
+        <h2>Barcelona, Espanha</h2>
+        <div class="card">
+            <img src="https://www.villeturismo.com.br/siteteste/wp-content/uploads/2017/02/barcelona.jpg" alt="Barcelona">
+            <p>Barcelona é uma cidade cosmopolita e vibrante localizada na costa do Mediterrâneo, na Espanha. É a capital da Catalunha, uma região com sua própria cultura e identidade únicas.</p>
+<P>
+A cidade é conhecida por sua arquitetura, especialmente a obra do arquiteto Antoni Gaudí. Alguns dos edifícios mais famosos de Gaudí em Barcelona incluem a Sagrada Família, a Casa Milà e o Parque Güell.</p>
+<p>Aqui estão alguns dos pontos turísticos mais populares de Barcelona:</p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Sagrada_Familia_01.jpg/300px-Sagrada_Familia_01.jpg" alt= 'Familia'>
+<p> A Sagrada Família: Esta basílica inacabada é uma das obras mais famosas de Gaudí. Seu design exuberante e colorido é uma obra-prima da arquitetura modernista. </p>
+<img src="https://cdn.getyourguide.com/img/location/f54c71fed4bdb4af.jpeg/99.jpg" alt= 'mila'>
+<p>Casa Milà: Também conhecida como La Pedrera, esta casa foi projetada por Gaudí e é um exemplo maravilhoso de sua arquitetura orgânica. </p>
+<img src="https://turismo.eurodicas.com.br/wp-content/uploads/2018/06/park-guell-2-2.jpg" alt= 'Parque'>
+<p>Parque Güell: Este parque é outro projeto de Gaudí e é uma das áreas verdes mais populares de Barcelona. É conhecido por suas esculturas, mosaicos e vistas deslumbrantes da cidade. </p>
+</div>
+    </main>
+
+</body>s
+</html>
