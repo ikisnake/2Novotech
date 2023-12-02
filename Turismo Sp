@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parque Ibirapuera - São Paulo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .image-container {
+            display: inline-block;
+            width: 45%;
+            margin: 1%; 
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Parque Ibirapuera</h1>
+    </header>
+
+    <main>
+        <div class="image-container">
+            <img src="https://images.adsttc.com/media/images/56bd/c6e2/e58e/cea3/6900/00be/medium_jpg/Ibira.jpg?1455277790" alt="Parque Ibirapuera">
+        </div>
+        <div class="image-container">
+            <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/09/AGE20230919004.jpg?w=1220&h=674&crop=1" alt="Parque Ibirapuera">
+        </div>
+
+        <p>O Parque Ibirapuera é um dos maiores e mais famosos parques urbanos do mundo. Localizado em São Paulo, Brasil, o parque é um destino popular para turistas e moradores locais. </p>
+<p> Parque Ibirapuera: um pedaço do paraíso em São Paulo
+
+Em uma cidade grande e agitada como São Paulo, é sempre bom encontrar um lugar para relaxar e se reconectar com a natureza. O Parque Ibirapuera é o lugar perfeito para isso.
+
+Com uma área de 158 hectares, o Parque Ibirapuera é um dos maiores parques urbanos do mundo. É um verdadeiro oásis verde no meio da cidade, repleto de árvores, plantas e flores.
+
+O parque oferece uma variedade de atrações para todos os gostos. Para quem gosta de natureza, há áreas para caminhadas, piqueniques e ciclismo. Para quem gosta de cultura, há museus, teatros e espaços para eventos. E para quem gosta de esportes, há quadras, campos e pistas de corrida.
+
+</p>
+        <p>Venha desfrutar da natureza e cultura no coração de São Paulo!</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Parque Ibirapuera - São Paulo</p>
+    </footer>
+</body>
+
+</html>
