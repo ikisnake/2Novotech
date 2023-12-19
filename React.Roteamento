@@ -1,0 +1,51 @@
+npx create-react-app m-projeto
+cd m-projeto
+ 
+
+npm install react-router-dom
+
+// src/App.js
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+
+const MeuComponente = (props) => {
+  const [cliques, setCliques] = useState(0);
+
+  const handleClique = () => {
+    setCliques(cliques + 1);
+  };
+
+  return (
+    <div>
+      <p>Nome: {props.nome}</p>
+      <p>Idade: {props.idade}</p>
+      <p>Cliques no Botão: {cliques}</p>
+      <button onClick={handleClique}>Clique-me</button>
+    </div>
+  );
+}
+
+const TelaInicial = () => {
+  return (
+    <div>
+      <h1>Tela Inicial</h1>
+      <Link to="/meu-componente/j/25">Ir para MeuComponente</Link>
+    </div>
+  );
+}
+
+const App = () => {
+  return (
+    <Router>
+      <div>
+        <h1>Exemplo de Props e Roteamento em React</h1>
+        <Route path="/" exact component={TelaInicial} />
+        <Route path="/meu-componente/:nome/:idade" render={({ match }) => (
+          <MeuComponente nome={match.params.nome} idade={match.params.idade} />
+        )} />
+      </div>
+    </Router>
+  );
+}
+
+export default App;
