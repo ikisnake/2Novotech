@@ -9,3 +9,13 @@ function App() {
 }
 
 export default App;
+
+<! - - - Java
+
+
+// src/utils/mensagem.js
+const obterMensagem = () => {
+  return "Olá!";
+}
+
+export default obterMensagem;
