@@ -1,0 +1,29 @@
+npx create-react-app m-projeto
+cd m-projeto
+
+// src/App.js
+import React from 'react';
+
+const MeuComponente = (props) => {
+  return (
+    <div>
+      <p>Nome: {props.nome}</p>
+      <p>Idade: {props.idade}</p>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <div>
+      <h1>Exemplo de Props em React</h1>
+      <MeuComponente nome="J" idade={25} />
+      <MeuComponente nome="M" idade={30} />
+    </div>
+  );
+}
+
+export default App;
+
+npm start
+
