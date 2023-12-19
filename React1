@@ -1,7 +1,11 @@
-npm install -g create-react-app
+import React from 'react';
 
-npx create-react-app meu-aplicativo-react
+function App() {
+  return (
+    <div>
+      <h1>Isabela</h1>
+    </div>
+  );
+}
 
-cd meu-aplicativo-react
-
-npm start
+export default App;
