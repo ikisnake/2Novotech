@@ -1,0 +1,38 @@
+npx create-react-app m-projeto
+cd m-projeto
+
+// src/App.js
+import React, { useState } from 'react';
+
+const MeuComponente = (props) => {
+  const [cliques, setCliques] = useState(0);
+
+  const handleClique = () => {
+    setCliques(cliques + 1);
+  };
+
+  return (
+    <div>
+      <p>Nome: {props.nome}</p>
+      <p>Idade: {props.idade}</p>
+      <p>Cliques no Botão: {cliques}</p>
+      <button onClick={handleClique}>Clique-me</button>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <div>
+      <h1>Exemplo de Props em React</h1>
+      <MeuComponente nome="J" idade={25} />
+      <MeuComponente nome="M" idade={30} />
+    </div>
+  );
+}
+
+export default App;
+
+
+npm start
+
